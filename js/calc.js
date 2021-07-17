@@ -143,21 +143,21 @@ function calc(){
         + petBi*1500 + petHihi*1500
         + mtaoBi*1500 + mtaoHihi*1500
         + bandBi*600 + bandHihi*600
-        + creaTraja*600 + creaBi*600 * creaHihi*600 + creaSamurai*600 + creaNinja*600 + creaImpa*600
+        + creaTraja*600 + creaBi*600 + creaHihi*600 + creaSamurai*600 + creaNinja*600 + creaImpa*600
         + creaJrsp*600 + creaNaniwa*600 + creaAe*600 + creaLil*600
-        + creaMiyachika*600 * creaNakamura*600 + creaYoshizawa*600 + creaShimekake*600 + creaMatsukura*600 + creaMatsuda*600 + creaKawashima*600
+        + creaMiyachika*600 + creaNakamura*600 + creaYoshizawa*600 + creaShimekake*600 + creaMatsukura*600 + creaMatsuda*600 + creaKawashima*600
         + creaUkisho*600 + creaNasu*600 + creaSato*600 + creaFuji*600 + creaKanasashi*600 + creaIwasaki*600
         + creaTakahashiY*600 + creaIgari*600 + creaSakuma*600 + creaHashimoto*600 + creaInoue*600
         + creaNishihata*600 + creaOnishi*600 + creaMichieda*600 + creaNagao*600 + creaTakahashiK*600 + creaOhashi*600 + creaFujiwara*600
         + creaMasakado*600 + creaKojima*600 + creaSano*600 + creaFukumoto*600 + creaKusama*600 + creaSuezawa*600
-        + ticTraja*500 + ticBi*500 * ticHihi*500 + ticSamurai*500 + ticNinja*500 + ticImpa*500
+        + ticTraja*500 + ticBi*500 + ticHihi*500 + ticSamurai*500 + ticNinja*500 + ticImpa*500
         + ticJrsp*500 + ticNaniwa*500 + ticAe*500 + ticLil*500
-        + acMiyachika*1000 * acNakamura*1000 + acYoshizawa*1000 + acShimekake*1000 + acMatsukura*1000 + acMatsuda*1000 + acKawashima*1000
+        + acMiyachika*1000 + acNakamura*1000 + acYoshizawa*1000 + acShimekake*1000 + acMatsukura*1000 + acMatsuda*1000 + acKawashima*1000
         + acUkisho*1000 + acNasu*1000 + acSato*1000 + acFuji*1000 + acKanasashi*1000 + acIwasaki*1000
         + acTakahashiY*1000 + acIgari*1000 + acSakuma*1000 + acHashimoto*1000 + acInoue*1000
         + acNishihata*1000 + acOnishi*1000 + acMichieda*1000 + acNagao*1000 + acTakahashiK*1000 + acOhashi*1000 + acFujiwara*1000
         + acMasakado*1000 + acKojima*1000 + acSano*1000 + acFukumoto*1000 + acKusama*1000 + acSuezawa*1000
-        + steTraja*800 + steBi*800 * steHihi*800 + steSamurai*800 + steNinja*800 + steImpa*800
+        + steTraja*800 + steBi*800 + steHihi*800 + steSamurai*800 + steNinja*800 + steImpa*800
         + steJrsp*800 + steNaniwa*800 + steAe*800 + steLil*800
         + muHihi*400 + muImpa*400
         + mtHihi*700 + mtImpa*700
