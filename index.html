@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISLAND STORE POPUP 六本木計算機</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/calc.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+        <a href="/" id="top-text" class="navbar-brand">POPUP 六本木計算機</a>
+    </nav>
+    <div class="col-lg-5 offset-lg-1 bs-component form-group" style="padding-top: 6rem;">
+    
+        <div id="TOP" class="text-center">
+        
+            <h5 class="text-info">
+                アイランドストア<br>ポップアップ六本木用<br>計算機
+            </h5>
+        <span><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></span>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+        
+    </div>
+
+        <div>
+            <form class="form-group" uk-grid>
+            
+                    <h5>サマステ</h5>
+                    <br>
+                    <p>ポスター</p>
+                    <label for="pos-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pos-ninja">
+                    <label for="pos-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pos-samurai">
+                    <label for="pos-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pos-bi">
+                    
+                    <br>
+                    <p>ラバーブレスレット</p>
+                    <label for="bres-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="bres-ninja">
+                    <label for="bres-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="bres-samurai">
+                    <label for="bres-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="bres-bi">
+                    
+                    <br>
+                    <p>クリアカードセット</p>
+                    <label for="card-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="card-ninja">
+                    <label for="card-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="card-samurai">
+                    <label for="card-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="card-bi">
+                    
+                    <br>
+                    <h5>裸の少年</h5>
+                    <br>
+                    <p>BIGトートバッグ</p>
+                    <label for="bag-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="bag-bi">
+                    <label for="bag-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="bag-hihi">
+                    
+                    <br>
+                    <p>ペットボトルホルダー</p>
+                    <label for="pet-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pet-bi">
+                    <label for="pet-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pet-hihi">
+                    
+                    <br>
+                    <p>マフラータオル</p>
+                    <label for="mtao-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mtao-bi">
+                    <label for="mtao-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mtao-hihi">
+
+                    <br>
+                    <p>リストバンド</p>
+                    <label for="band-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="band-bi">
+                    <label for="band-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="band-hihi">
+                    
+                    <br>
+                    <h5>21夏グッズ</h5> 
+                    <br>
+                    <p>クリアファイル</p>
+                    <label for="crea-traja">Travis Japan</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-traja">
+                    <label for="crea-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-bi">
+                    <label for="crea-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-hihi">
+                    <label for="crea-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-samurai">
+                    <label for="crea-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-ninja">
+                    <label for="crea-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-impa">
+                    <label for="crea-jrsp">Jr.SP</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-jrsp">
+                    <label for="crea-naniwa">なにわ男子</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-naniwa">
+                    <label for="crea-ae">Aぇ! group</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-ae">
+                    <label for="crea-lil">Lil かんさい</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-lil">
+                    <label for="crea-miyachika">宮近海斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-miyachika">
+                    <label for="crea-nakamura">中村海人</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-nakamura">
+                    <label for="crea-yoshizawa">吉澤閑也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-yoshizawa">
+                    <label for="crea-shimekake">七五三掛龍也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-shimekake">
+                    <label for="crea-matsukura">松倉海斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-matsukura">
+                    <label for="crea-matsuda">松田元太</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-matsuda">
+                    <label for="crea-kawashima">川島如恵留</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-kawashima">
+                    <label for="crea-ukisho">浮所飛貴</label>/label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-ukisho">
+                    <label for="crea-nasu">那須雄登</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-nasu">
+                    <label for="crea-sato">佐藤龍我</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-soto">
+                    <label for="crea-fiji">藤井直樹</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-fuji">
+                    <label for="crea-kanasashi">金指一世</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-kanasashi">
+                    <label for="crea-iwasaki">岩﨑大昇</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-iwasaki">
+                    <label for="crea-takahashi-y">髙橋優斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-takahashi-y">
+                    <label for="crea-igari">猪狩蒼弥</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-igari">
+                    <label for="crea-sakuma">作間龍斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-sakuma">
+                    <label for="crea-hashimoto">橋本涼</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-hashimoto">
+                    <label for="crea-inoue">井上瑞稀</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-inoue">
+                    <label for="crea-nishihata">西畑大吾</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-nishihata">
+                    <label for="crea-onishi">大西流星</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-onishi">
+                    <label for="crea-michieda">道枝駿介</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-michieda">
+                    <label for="crea-nagao">長尾謙杜</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-nagao">
+                    <label for="crea-takahashi-k">高橋恭平</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-takahashi-k">
+                    <label for="crea-ohashi">大橋和也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-ohashi">
+                    <label for="crea-fijiwara">藤原丈一郎</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-fujiwara">
+                    <label for="crea-masakado">正門良規</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-masakado">
+                    <label for="crea-kojima">小島健</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-kojima">
+                    <label for="crea-sano">佐野晶哉</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-sano">
+                    <label for="crea-fukumoto">福本大晴</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-fukumoto">
+                    <label for="crea-kusama">草間リチャード敬太</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-kusama">
+                    <label for="crea-suezawa">末澤誠也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="crea-suezawa">
+                
+                    <br>
+                    <p>チケットファイル</p>
+                    <label for="tic-traja">Travis Japan</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-traja">
+                    <label for="tic-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-bi">
+                    <label for="tic-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-hihi">
+                    <label for="tic-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-samurai">
+                    <label for="tic-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-ninja">
+                    <label for="tic-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-impa">
+                    <label for="tic-jrsp">Jr.SP</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-jrsp">
+                    <label for="tic-naniwa">なにわ男子</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-naniwa">
+                    <label for="tic-ae">Aぇ! group</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-ae">
+                    <label for="tic-lil">Lil かんさい</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="tic-lil">
+                    
+                    <br>
+                    <p>アクリルスタンド</p>
+                    <label for="ac-miyachika">宮近海斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-miyachika">
+                    <label for="ac-nakamura">中村海人</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-nakamura">
+                    <label for="ac-yoshizawa">吉澤閑也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-yoshizawa">
+                    <label for="ac-shimekake">七五三掛龍也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-shimekake">
+                    <label for="ac-matsukura">松倉海斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-matsukura">
+                    <label for="ac-matsuda">松田元太</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-matsuda">
+                    <label for="ac-kawashima">川島如恵留</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-kawashima">
+                    <label for="ac-ukisho">浮所飛貴</label>/label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-ukisho">
+                    <label for="ac-nasu">那須雄登</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-nasu">
+                    <label for="ac-sato">佐藤龍我</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-soto">
+                    <label for="ac-fiji">藤井直樹</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-fuji">
+                    <label for="ac-kanasashi">金指一世</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-kanasashi">
+                    <label for="ac-iwasaki">岩﨑大昇</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-iwasaki">
+                    <label for="ac-takahashi-y">髙橋優斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-takahashi-y">
+                    <label for="ac-igari">猪狩蒼弥</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-igari">
+                    <label for="ac-sakuma">作間龍斗</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-sakuma">
+                    <label for="ac-hashimoto">橋本涼</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-hashimoto">
+                    <label for="ac-inoue">井上瑞稀</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-inoue">
+                    <label for="ac-nishihata">西畑大吾</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-nishihata">
+                    <label for="ac-onishi">大西流星</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-onishi">
+                    <label for="ac-michieda">道枝駿介</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-michieda">
+                    <label for="ac-nagao">長尾謙杜</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-nagao">
+                    <label for="ac-takahashi-k">高橋恭平</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-takahashi-k">
+                    <label for="ac-ohashi">大橋和也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-ohashi">
+                    <label for="ac-fijiwara">藤原丈一郎</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-fujiwara">
+                    <label for="ac-masakado">正門良規</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-masakado">
+                    <label for="ac-kojima">小島健</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-kojima">
+                    <label for="ac-sano">佐野晶哉</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-sano">
+                    <label for="ac-fukumoto">福本大晴</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-fukumoto">
+                    <label for="ac-kusama">草間リチャード敬太</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-kusama">
+                    <label for="ac-suezawa">末澤誠也</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ac-suezawa">
+                
+                    <br>
+                    <p>ステッカー</p>
+                    <label for="ste-traja">Travis Japan</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-traja">
+                    <label for="ste-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-bi">
+                    <label for="ste-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-hihi">
+                    <label for="ste-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-samurai">
+                    <label for="ste-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-ninja">
+                    <label for="ste-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-impa">
+                    <label for="ste-jrsp">Jr.SP</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-jrsp">
+                    <label for="ste-naniwa">なにわ男子</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-naniwa">
+                    <label for="ste-ae">Aぇ! group</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-ae">
+                    <label for="ste-lil">Lil かんさい</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ste-lil">
+                    
+                    <br>
+                    <h5>サマパラ</h5> 
+                    <br>
+                    <p>ミニうちわ</p>
+                    <label for="mu-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mu-hihi">
+                    <label for="mu-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mu-impa">
+                    
+                    <br>
+                    <p>マスキングテープ</p>
+                    <label for="mt-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mt-hihi">
+                    <label for="mt-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="mt-impa">
+                    
+                    <br>
+                    <p>フェイスタオル</p>
+                    <label for="ft">フェイスタオル</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="ft">
+                    
+                    <br>
+                    <h5>ペンライト</h5> 
+                    <br>
+                    <label for="pl-hihi">HiHi Jets</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-hihi">
+                    <label for="pl-impa">IMPACTors</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-impa">
+                    <label for="pl-ninja">少年忍者</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-ninja">
+                    <label for="pl-samurai">7 MEN 侍</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-samurai">
+                    <label for="pl-bi">美 少年</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-bi">
+                    <label for="pl-jr">ジャニーズJr.</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pl-jr">
+                
+                    <br>
+                    <label for="pls">ペンライトスタンド</label>
+                    <input class="form-control" pattern="\d*" type="number" placeholder="数量" id="pls">
+                    
+                </form>
+            <p>
+                <button type="button" class="btn btn-success" onclick="calc();">計算</button>
+            </p>
+        </div>
+
+        <div id="result-erea" class="text-center">
+
+        </div>
+        
+    </div>
+</body>
+</html>
