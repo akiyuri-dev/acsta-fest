@@ -48,3 +48,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+# Google Analytics
+google_analytics: G-83MXLLRF3L
